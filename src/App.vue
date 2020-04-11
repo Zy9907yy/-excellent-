@@ -31,6 +31,8 @@ export default {
 </script>
 
 <style>
+/* @import "../colorui/main.wxss";
+@import "../colorui/icon.wxss"; */
 .container {
   height: 100%;
   display: flex;
