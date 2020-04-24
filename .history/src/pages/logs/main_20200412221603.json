@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "订单详情",
+  "usingComponents": {
+    "i-tabs": "../../static/iview/tabs/index",
+    "i-tab": "../../static/iview/tab/index",
+    "i-panel": "../../static/iview/panel/index"
+  }
+}
