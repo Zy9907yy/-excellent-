@@ -1,5 +1,39 @@
+<template>
+    <!--wxml-->
+ <div>
+<!-- 需要使用 button 来授权登录 -->
+<button :wx:if="canIUse" open-type="getUserInfo"  lang="zh_CN" bindgetuserinfo="bindGetUserInfo">授权登录</button>
+<view wx:else>请升级微信版本</view>
+<!-- 如果只是展示用户头像昵称，可以使用 <open-data /> 组件 -->
+<open-data type="userAvatarUrl"></open-data>
+<open-data type="userNickName"></open-data>
+ </div>
+</template>
 <script>
 export default {
+  data: {
+    canIUse: wx.canIUse('button.open-type.getUserInfo')
+  },
+  onLoad: function () {
+    wx.login()
+    // 查看是否授权
+    wx.getSetting({
+      success: function (res) {
+        if (res.authSetting['scope.userInfo']) {
+          // 已经授权，可以直接调用 getUserInfo 获取头像昵称
+          wx.getUserInfo({
+            success: function (res) {
+              console.log(res.userInfo)
+            }
+          })
+        }
+      }
+    })
+  },
+  bindGetUserInfo: function (e) {
+    console.log(e.detail.userInfo)
+  },
+
   created () {
     // 调用API从本地缓存中获取数据
     /*
@@ -31,15 +65,20 @@ export default {
 </script>
 
 <style>
+<<<<<<< HEAD
 @import "../colorui/main.wxss";
 @import "../colorui/icon.wxss";
+=======
+ @import "../colorui/main.wxss";
+@import "../colorui/icon.wxss"; 
+>>>>>>> 414d4b49a1bfdfbaaab7bede75799766441389a8
 .container {
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 200rpx 0;
+  /* padding: 200rpx 0; */
   box-sizing: border-box;
 }
 /* this rule will be remove */

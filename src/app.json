@@ -3,10 +3,25 @@
     "pages/mine/main",
     "pages/index/main",
     "pages/logs/main",
+<<<<<<< HEAD
     "pages/manage/main",
     "pages/about/main",
     "pages/advice/main",
     "pages/mmmm/main"
+=======
+    "pages/counter/main",
+    "pages/mine/main",
+    "pages/manage/main",
+    "pages/delicious/main",
+    "pages/shop/main",
+    "pages/demo/main",
+    "pages/registers/main",
+    "pages/managet/main",
+    "pages/mangoods/main",
+    "pages/manorder/main",
+    "pages/changeG/main"
+    
+>>>>>>> 414d4b49a1bfdfbaaab7bede75799766441389a8
   ],
   "window": {
     "backgroundTextStyle": "light",
