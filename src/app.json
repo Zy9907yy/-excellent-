@@ -5,7 +5,8 @@
     "pages/counter/main",
     "pages/mine/main",
     "pages/manage/main",
-    "pages/delicious/main"
+    "pages/delicious/main",
+    "pages/shop/main"
     
   ],
   "window": {
