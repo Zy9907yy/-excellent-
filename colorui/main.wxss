@@ -1659,6 +1659,9 @@ button.icon.lg {
 	overflow: hidden;
 }
 
+.content{
+	font-size: 32.8rpx !important;
+}
 .cu-bar.ios .content {
 	bottom: 7px;
 	height: 30px;

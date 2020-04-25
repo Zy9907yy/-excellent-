@@ -1,4 +1,7 @@
 <template>
+<<<<<<< HEAD
+  <div>
+=======
   <div class="page">
 <!--导航条-->
 <i-tabs :current=" current " color="green" @change="handleChange">
@@ -44,10 +47,13 @@
 </i-card>
 </li>
 </div>
+>>>>>>> 414d4b49a1bfdfbaaab7bede75799766441389a8
      
   </div>
 </template>
 
+<<<<<<< HEAD
+=======
 <script>
 import { formatTime } from '@/utils/index'
 import card from '@/components/card'
@@ -153,3 +159,4 @@ export default {
      /* margin-bottom:2px; */
 }
 </style>
+>>>>>>> 414d4b49a1bfdfbaaab7bede75799766441389a8

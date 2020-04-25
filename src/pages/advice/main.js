@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import App from './ind4'
+import App from './advice'
 
 const app = new Vue(App)
 app.$mount()
