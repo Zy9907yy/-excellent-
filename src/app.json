@@ -7,7 +7,16 @@
     "pages/about/main",
     "pages/advice/main",
     "pages/mmmm/main",
-    "pages/addaddress/main"
+    "pages/addaddress/main",
+    "pages/changeG/main",
+    "pages/counter/main",
+    "pages/delicious/main",
+    "pages/demo/main",
+    "pages/managet/main",
+    "pages/mangoods/main",
+    "pages/manorder/main",
+    "pages/registers/main",
+    "pages/shop/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
