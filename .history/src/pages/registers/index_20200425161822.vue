@@ -6,27 +6,27 @@
                 <form>
                     <view class="cu-form-group margin-top">
 				<view class="title">店铺名称</view>
-				<input placeholder="请输入店铺名称" name="input"/>
+				<input placeholder="请输入店铺名称" name="input"></input>
 			</view>
 			<view class="cu-form-group">
 				<view class="title">店铺简介</view>
-				<input placeholder="请输入店铺简介" name="input"/>
+				<input placeholder="请输入店铺简介" name="input"></input>
 			</view>
 			<view class="cu-form-group">
 				<view class="title">店铺地址</view>
-				<input placeholder="请输入店铺地址" name="input"/>
+				<input placeholder="请输入店铺地址" name="input"></input>
 			</view>
             <view class="cu-form-group">
 				<view class="title">负责人</view>
-				<input placeholder="请输入负责人姓名" name="input"/>
+				<input placeholder="请输入负责人姓名" name="input"></input>
 			</view>
 			<view class="cu-form-group">
 				<view class="title">身份证号</view>
-				<input placeholder="请输入负责人身份证号" name="input"/>
+				<input placeholder="请输入负责人身份证号" name="input"></input>
 			</view>
             <view class="cu-form-group">
 				<view class="title">联系方式</view>
-				<input placeholder="请输入负责人联系方式" name="input"/>
+				<input placeholder="请输入负责人联系方式" name="input"></input>
 			</view>
 
             <view class="cu-form-group margin-top">

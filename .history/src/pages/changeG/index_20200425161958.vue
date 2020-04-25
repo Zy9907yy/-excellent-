@@ -5,7 +5,7 @@
             <form>
             <view class="cu-form-group margin-top">
 				<view class="title">商品名称</view>
-				<input placeholder="请输入商品名称" name="input">
+				<input placeholder="请输入商品名称" name="input"/>
 			</view>
 			<view class="cu-form-group">
 				<view class="title">商品单价</view>

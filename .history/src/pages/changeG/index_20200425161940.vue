@@ -5,19 +5,19 @@
             <form>
             <view class="cu-form-group margin-top">
 				<view class="title">商品名称</view>
-				<input placeholder="请输入商品名称" name="input">
+				<input placeholder="请输入商品名称" name="input"></input>
 			</view>
 			<view class="cu-form-group">
 				<view class="title">商品单价</view>
-				<input placeholder="请输入商品单价" name="input">
+				<input placeholder="请输入商品单价" name="input"></input>
 			</view>
 			<view class="cu-form-group">
 				<view class="title">商品库存</view>
-				<input placeholder="请输入商品库存" name="input">
+				<input placeholder="请输入商品库存" name="input"></input>
 			</view>
             <view class="cu-form-group">
 				<view class="title">商品备注</view>
-				<input placeholder="请输入商品备注" name="input">
+				<input placeholder="请输入商品备注" name="input"></input>
 			</view>
             <view class="cu-bar bg-white margin-top">
 				<view class="action">

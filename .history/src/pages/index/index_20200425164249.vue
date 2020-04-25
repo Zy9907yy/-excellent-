@@ -6,7 +6,7 @@
  </div>
  <input type="text" class="search"  placeholder="搜索" />
   <div class="userinfo" @click="bindViewTap">
-      <div class="icon"><img class="userinfo-avatar" src="/static/images/美食.png"  /><p style="width:50px;text-align:center;">主食</p></div>
+      <div class="icon"><img class="userinfo-avatar" src="/static/images/美食.png" @click='jumpDelicious' /><p style="width:50px;text-align:center;">主食</p></div>
       <div class="icon"><img class="userinfo-avatar" src="/static/images/蔬菜.png"  /><p style="width:50px;text-align:center;">蔬菜</p></div>
       <div class="icon"><img class="userinfo-avatar" src="/static/images/水果水果.png"  /><p style="width:50px;text-align:center;">水果</p></div>
       <div class="icon"><img class="userinfo-avatar" src="/static/images/家常菜菜.png"  /><p style="width:50px;text-align:center;">家常菜</p></div>
@@ -208,6 +208,12 @@ export default {
         url: '../shop/main'
       })
     },
+    // jumpDelicious () {
+    //   // eslint-disable-next-line no-undef
+    //   wx.navigateTo({
+    //     url: '../delicious/main'
+    //   })
+    // },
     tabSelect (e) {
       this.TabCur = e.currentTarget.dataset.id
     },

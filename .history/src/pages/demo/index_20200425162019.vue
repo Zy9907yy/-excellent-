@@ -171,8 +171,8 @@ export default {
     this.winHeight = res.windowHeight
   }
   // tabSelect (e) {
-  // this.TabCur = e.currentTarget.dataset.id
-  // // this.scrollLeft = (e.currentTarget.dataset.id - 1) * 60
+  // 			this.TabCur = e.currentTarget.dataset.id
+  // 			// this.scrollLeft = (e.currentTarget.dataset.id - 1) * 60
   // },
 }
 </script>

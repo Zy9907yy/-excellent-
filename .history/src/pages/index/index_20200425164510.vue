@@ -208,6 +208,12 @@ export default {
         url: '../shop/main'
       })
     },
+    // jumpDelicious () {
+    //   // eslint-disable-next-line no-undef
+    //   wx.navigateTo({
+    //     url: '../delicious/main'
+    //   })
+    // },
     tabSelect (e) {
       this.TabCur = e.currentTarget.dataset.id
     },
