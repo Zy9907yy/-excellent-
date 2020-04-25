@@ -65,13 +65,8 @@ export default {
 </script>
 
 <style>
-<<<<<<< HEAD
 @import "../colorui/main.wxss";
 @import "../colorui/icon.wxss";
-=======
- @import "../colorui/main.wxss";
-@import "../colorui/icon.wxss"; 
->>>>>>> 414d4b49a1bfdfbaaab7bede75799766441389a8
 .container {
   height: 100%;
   display: flex;

@@ -9,6 +9,7 @@
         <view class="title">性别</view>
         <picker bindchange="PickerChange" :value="index" :range="picker"></picker>
       </view> -->
+      
       <view class="cu-form-group margin-top">
 		<view class="title">电话</view>
 		<input placeholder="手机号码">
