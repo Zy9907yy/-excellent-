@@ -1,10 +1,12 @@
 {
   "pages": [
+    "pages/mine/main",
     "pages/index/main",
     "pages/logs/main",
-    "pages/counter/main",
-    "pages/mine/main",
-    "pages/manage/main"
+    "pages/manage/main",
+    "pages/about/main",
+    "pages/advice/main",
+    "pages/mmmm/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -19,6 +21,11 @@
     "borderStyle": "white",
 
     "list": [{
+      "text": "我的",
+      "pagePath": "pages/mine/main",
+      "iconPath": "static/tabs/about.png",
+      "selectedIconPath": "static/tabs/about_cur.png"
+    },{
       "text": "首页",
       "pagePath": "pages/index/main",
       "iconPath": "static/tabs/home.png",
@@ -28,14 +35,15 @@
       "pagePath": "pages/logs/main",
       "iconPath": "static/tabs/orders.png",
       "selectedIconPath": "static/tabs/orders-active.png"
-    },{
-      "text": "我的",
-      "pagePath": "pages/mine/main",
-      "iconPath": "static/tabs/home.png",
-      "selectedIconPath": "static/tabs/home-active.png"
     }],
 
     "items": [{
+      "name": "我的",
+      "pagePath": "pages/mine/main",
+      "icon": "static/tabs/about.png",
+      "activeIcon": "static/tabs/about_cur.png"
+      
+    },{
       "name": "首页",
       "pagePath": "pages/index/main",
       "icon": "static/tabs/home.png",
@@ -45,12 +53,6 @@
       "pagePath": "pages/logs/main",
       "icon": "static/tabs/orders.png",
       "activeIcon": "static/tabs/orders-active.png"
-    },{
-      "name": "我的",
-      "pagePath": "pages/mine/main",
-      "icon": "static/tabs/home.png",
-      "activeIcon": "static/tabs/home-active.png"
-      
     }],
     
     "position": "bottom"

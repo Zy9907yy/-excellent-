@@ -68,7 +68,7 @@ page {
 	--blackShadow: rgba(26, 26, 26, 0.2);
 
 	background-color: var(--ghostWhite);
-	font-size: 28rpx;
+	/* font-size: 28rpx; */
 	color: var(--black);
 	font-family: Helvetica Neue, Helvetica, sans-serif;
 }
@@ -1659,6 +1659,9 @@ button.icon.lg {
 	overflow: hidden;
 }
 
+.content{
+	font-size: 32.8rpx !important;
+}
 .cu-bar.ios .content {
 	bottom: 7px;
 	height: 30px;

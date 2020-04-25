@@ -41,8 +41,8 @@ export default {
     return {
       motto: 'Hello miniprograme',
       userInfo: {
-        nickName: 'mpvue',
-        avatarUrl: 'http://image.baidu.com/search/detail?ct=503316480&z=undefined&tn=baiduimagedetail&ipn=d&word=%E5%9B%BE%E7%89%87&step_word=&ie=utf-8&in=&cl=2&lm=-1&st=undefined&hd=undefined&latest=undefined&copyright=undefined&cs=3386247472,87720242&os=1924893410,3626164309&simid=3519474220,309335511&pn=5&rn=1&di=7810&ln=1716&fr=&fmq=1585987118849_R&fm=&ic=undefined&s=undefined&se=&sme=&tab=0&width=undefined&height=undefined&face=undefined&is=0,0&istype=0&ist=&jit=&bdtype=0&spn=0&pi=0&gsm=0&objurl=http%3A%2F%2Fbbs.jooyoo.net%2Fattachment%2FMon_0905%2F24_65548_2835f8eaa933ff6.jpg&rpstart=0&rpnum=0&adpicid=0&force=undefined'
+        nickName: 'mpvue'
+        // avatarUrl: 'http://image.baidu.com/search/detail?ct=503316480&z=undefined&tn=baiduimagedetail&ipn=d&word=%E5%9B%BE%E7%89%87&step_word=&ie=utf-8&in=&cl=2&lm=-1&st=undefined&hd=undefined&latest=undefined&copyright=undefined&cs=3386247472,87720242&os=1924893410,3626164309&simid=3519474220,309335511&pn=5&rn=1&di=7810&ln=1716&fr=&fmq=1585987118849_R&fm=&ic=undefined&s=undefined&se=&sme=&tab=0&width=undefined&height=undefined&face=undefined&is=0,0&istype=0&ist=&jit=&bdtype=0&spn=0&pi=0&gsm=0&objurl=http%3A%2F%2Fbbs.jooyoo.net%2Fattachment%2FMon_0905%2F24_65548_2835f8eaa933ff6.jpg&rpstart=0&rpnum=0&adpicid=0&force=undefined'
       }
     }
   },
