@@ -33,6 +33,7 @@
 </template>
 <script>
 export default {
+<<<<<<< HEAD
   data () {
     return {
       index: -1,
@@ -64,3 +65,36 @@ export default {
   }
 }
 </script>
+=======
+    data () {
+        return {
+			index: -1,
+			imgList: []
+        }
+    },
+    methods: {
+        // 图片上传
+        ChooseImage () {
+				wx.chooseImage({
+                    count: 1,
+                    sizeType: ['original', 'compressed'],
+                    sourceType: ['album'],
+					success: (res) => {
+						if (this.imgList.length !== 0) {
+							this.imgList = this.imgList.concat(res.tempFilePaths)
+						} else {
+							this.imgList = res.tempFilePaths
+						}
+					}
+				})
+            },
+        ViewImage (e) {
+            wx.previewImage({
+                urls: this.data.imgList,
+                current: e.currentTarget.dataset.url
+            })
+        }
+    }
+}
+</script>
+>>>>>>> 9951c84e668fb1e83a2e247066df763548b47bb8

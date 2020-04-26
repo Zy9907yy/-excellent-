@@ -88,10 +88,10 @@ export default {
       this.index = e.detail.value
     },
     // PickerChange (e) {
-    // console.log(e)
-    // this.setData({
-    // index: e.detail.value
-    // })
+    // 	console.log(e)
+    // 	this.setData({
+    // 		index: e.detail.value
+    // 		})
     //     },
     // 跳转
     regist () {
